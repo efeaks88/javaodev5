@@ -1,0 +1,16 @@
+package giris;
+import java.util.Scanner;
+public class vucutodev {
+    public static void main(String[] args) {
+        Scanner sayi = new Scanner(System.in);
+        double boy,kilo;
+        double endeks;
+        System.out.println("Boy giriniz: ");
+        boy = sayi.nextDouble();
+        System.out.println("kilo giriniz: ");
+        kilo=sayi.nextDouble();
+        //bence formül yanlış ama patika istedi öyle yaptık :D
+        endeks = (kilo/boy) * boy;
+        System.out.println("Oranınız: " + endeks);
+    }
+}
